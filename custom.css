@@ -1,0 +1,255 @@
+.main-navigation a:hover {
+	background-color: #5e5e5e
+}
+
+.wc-block-grid__product-onsale {
+	background-color: #dd3333;
+	color: white;
+}
+
+.woocommerce-Price-amount {
+	color: white;	
+}
+
+.wc-block-grid__product-add-to-cart .wp-block-button__link, 
+.product.type-product .button {
+	background-color: #DD3333 !important;
+	color: white !important;
+	border-radius: 10px !important;
+}
+
+.site-footer {
+	background-color: #5e5e5e
+}
+
+.wc-block-grid__product,
+.product.type-product {
+	background-color: #5e5e5e;
+	border-radius: 10px;
+	margin-right: 20px;
+	border: 8px solid transparent;
+}
+
+@media only screen and (min-width: 480px) {
+.wc-block-grid.has-3-columns .wc-block-grid__product {
+	max-width: 30%;
+}
+}
+
+@media only screen and (max-width: 480px) {
+.wp-block-cover {
+	background-image:url(https://aandjblanks.com/wp-content/uploads/2020/06/logo_background_removed.png) !important;	
+	background-position:50% 50% !important;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+}
+
+.storefront-product-pagination {
+	display: none;
+}
+
+.woocommerce-product-gallery__trigger {
+	display: none !important;
+}
+
+.woocommerce-products-header, .entry-header {
+	padding-bottom: 20px !important;
+}
+
+
+
+.woocommerce-product-details__short-description {
+	color: white;
+}
+
+.single_add_to_cart_button {
+		background-color: #DD3333 !important;
+	color: white; !important;
+	border-radius: 10px !important;
+}
+
+.quantity .input-text {
+	border-radius: 10px;
+	background-color: white;
+}
+
+.reset_variations {
+	color: white;
+}
+
+
+
+.wc-tabs-wrapper {
+	background-color: #5e5e5e;
+	border-radius: 2px !important;
+	padding: 20px  !important;
+	margin-bottom: 20px;
+}
+
+.woocommerce-Tabs-panel {
+	margin-bottom: 0 !important;
+}
+
+table:not( .has-background ) th, table:not( .has-background ) tbody td {
+	background-color: white;
+	color: black;
+}
+
+.woocommerce-product-attributes,
+.woocommerce-product-attributes-item,
+.woocommerce-product-attributes-item__label
+{
+	border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.wc-tabs {
+	margin-right: 0px !important;
+}
+
+.wc-tabs * a, .wc-tabs * {
+	color: white !important;
+}
+
+#respond {
+	padding: 10px
+}
+
+.comment-form {
+	color: white;
+}
+
+.comment-form label {
+	font-weight: bold;
+}
+
+p.stars a:before {
+	color: #FFD700 !important;
+}
+
+
+
+
+.woocommerce-MyAccount-navigation {
+	background-color: #5e5e5e;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+}
+
+.woocommerce-MyAccount-navigation ul {
+	margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 480px) {
+.woocommerce-MyAccount-content {
+	margin-top: 20px		
+}
+}
+
+.woocommerce-MyAccount-navigation-link {
+	border-bottom-color: white !important;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	padding: 5px;
+}
+
+.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--customer-logout {
+	border-bottom-width: 0px !important;
+}
+
+.woocommerce-MyAccount-content {
+	background-color: #5e5e5e;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.woocommerce-MyAccount-navigation .is-active a {
+	color: #DD3333;
+	font-weight: bold;
+}
+
+fieldset, legend {
+	background-color: #5e5e5e !important;
+	
+}
+
+fieldset {
+	border-color: white;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.cart_item .product-total .woocommerce-Price-amount.amount {
+  color: black;	
+}
+
+.cart-subtotal td .woocommerce-Price-amount * {
+  color: black;	
+}
+
+.woocommerce-shipping-totals * {
+	color: white !important;
+}
+
+.woocommerce-shipping-totals th {
+	color: black  !important;
+}
+
+.woocommerce-product-attributes-item__value {
+	background-color: white !important;
+}
+
+.woocommerce-cart-form__contents tbody tr td {
+ background-color: black !important;
+}
+
+.shop_table tbody tr td .woocommerce-Price-amount {
+	color: black;
+}
+
+.shop_table tbody tr td strong .woocommerce-Price-amount {
+	color: white;
+}
+
+.woo_pp_cart_buttons_div {
+	display: none;
+}
+
+.select2-results__option {
+	color: black;
+}
+
+.shipping-calculator-form .select2-selection__rendered {
+	color: black !important;
+}
+
+.shipping-calculator-form p button {
+	color: black !important;
+}
+
+.woocommerce-checkout-review-order-table tbody tr:nth-child(2n) td, .woocommerce-checkout-review-order-table thead tr th {
+	background-color: whitesmoke !important;
+}
+
+.woocommerce-table--order-details tbody tr:nth-child(2n) td, .woocommerce-table--order-details thead tr th {
+	background-color: whitesmoke !important;
+}
+
+.woocommerce-MyAccount-orders tbody tr:nth-child(2n) td, .woocommerce-MyAccount-orders thead tr th {
+	background-color: whitesmoke !important;
+}
+
+.woocommerce-table--order-details tbody tr td a {
+	color: black !important;
+}
+
+p mark.order-date, p mark.order-number, p mark.order-status {
+	color: white;
+}
+
+.woocommerce-orders-table__cell-order-number a {
+	color: black;
+}
