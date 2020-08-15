@@ -253,3 +253,7 @@ p mark.order-date, p mark.order-number, p mark.order-status {
 .woocommerce-orders-table__cell-order-number a {
 	color: black;
 }
+
+.wc-block-grid__product-rating .star-rating span:before, .wc-block-grid__product-rating .wc-block-grid__product-rating__stars span:before {
+	color: yellow
+}
